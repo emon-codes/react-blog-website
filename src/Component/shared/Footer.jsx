@@ -17,7 +17,7 @@ const Footer = () => {
         </div>
 
         {/* Quick Links */}
-        <div>
+        <div> 
           <h4 className="text-lg font-semibold text-white mb-3">
             Quick Links
           </h4>
@@ -35,10 +35,10 @@ const Footer = () => {
             Categories
           </h4>
           <ul className="space-y-2 text-sm">
-            <li>Web Development</li>
-            <li>React & Tailwind</li>
-            <li>Linux Tips</li>
-            <li>Freelancing</li>
+            <li className='cursore-pointer'>Web Development</li>
+            <li className='cursore-pointer'>React & Tailwind</li>
+            <li className='cursore-pointer'>Linux Tips</li>
+            <li className='cursore-pointer'>Freelancing</li>
           </ul>
         </div>
 
@@ -50,7 +50,7 @@ const Footer = () => {
           <p className="text-sm mb-3">
             Subscribe to get latest blog updates.
           </p>
-          <form className="flex">
+          <form className="flex bg-[#AA1B72] rounded-2xl">
             <input
               type="email"
               placeholder="Your email"
