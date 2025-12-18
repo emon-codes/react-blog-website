@@ -3,7 +3,7 @@ import logo from '../../../assets/emon.png'
 
 const Header = () => {
   return (
-    <div className=''>
+    <div className='py-2 glass'>
     <div className='flex justify-between container mx-auto items-center '>
       <div>
         <img className='w-[150px] h-auto' src={logo} alt="" />
